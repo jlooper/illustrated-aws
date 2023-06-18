@@ -9,7 +9,13 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "devDependencies": {
+    "@astrojs/mdx": "^0.19.3",
+    "@astrojs/svelte": "^2.2.0",
+    "astro": "^2.5.5"
+  },
   "dependencies": {
-    "astro": "^2.6.4"
+    "astro": "^2.6.4",
+    "svelte": "^3.59.1"
   }
 }

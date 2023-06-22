@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "The Illustrated AWS";
+const description = "Learn with us!";
+const permalink = Astro.site.href;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink}>
+  <h1>Resources</h1>
+  <section class="home-container">
+    <section class="home-copy">
+      <p>
+        There are many free resources available for the new Cloud Practitioner
+        to learn Cloud fundamentals. We recommend:
+
+        <ul>
+          <li><a href="https://buildon.aws">BuildOn.aws blog</a></li>
+          <li><a href="https://dev.to/aws">Dev.to for AWS</a></li>
+          <li><a href="https://aws.amazon.com/blogs/">AWS Blog</a></li>
+          <li><a href="https://www.twitch.tv/aws">BuildOn Twitch</a></li>
+          <li><a href="https://explore.skillbuilder.aws/">Skill Builder</a></li>
+          <li><a href="https://www.awseducate.com/">AWS Educate</a></li>
+          <li><a href="https://workshops.aws/">Workshops.aws</a></li>
+          <li>
+            <a href="https://studiolab.sagemaker.aws/">SageMaker Studio Lab</a>
+          </li>
+          <li><a href="https://github.com/aws-samples">AWS Code Samples</a></li>
+          <li>
+            <a
+              href="https://explore.skillbuilder.aws/learn/course/11458/play/42651/play-cloud-quest-cloud-practitioner"
+              >Cloud Quest</a
+            >
+          </li>
+          <li>
+            <a href="https://mlu-explain.github.io/"
+              >MLU (Machine Learning University) Explain</a
+            >
+          </li>
+        </ul>
+      </p>
+    </section>
+    <section class="hero-image-container">
+      <img
+        class="hero-image"
+        alt="one of the characters in the book"
+        src="/assets/images/training.png"
+      />
+    </section>
+  </section>
+</BaseLayout>

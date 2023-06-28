@@ -42,7 +42,7 @@
   }
   
   h1 {
-    font-family: var(--font-family-serif);
+    font-family: var(--font-family-sans);
     font-size: 4em;
     margin: 0 0 1em 0;
   }

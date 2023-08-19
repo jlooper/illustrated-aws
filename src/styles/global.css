@@ -155,7 +155,6 @@
   
   .content h1 {
     font-size: 3em;
-    margin: 1em 0;
   }
   
   .theme-toggle {
@@ -219,18 +218,13 @@
     ul,
     ol {
       font-size: 1.2rem;
-      margin: 1em 0;
     }
   }
   
   /*layouts*/
   .home-container {
-    align-items: center;
     display: flex;
     flex: 1;
-    justify-content: center;
-    margin: 2em 0;
-    min-height: 400px;
   }
 
   .home-copy {

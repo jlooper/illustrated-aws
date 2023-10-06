@@ -1,4 +1,8 @@
-# Astro Starter Kit: Basics
+# The Illustrated AWS Cloud - book site
+
+This is the web site for the Illustrated AWS Cloud book, forthcoming via Wiley: https://illustratedaws.cloud
+
+To launch this web site locally, follow these instructions:
 
 ```
 npm create astro@latest -- --template basics

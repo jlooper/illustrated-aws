@@ -5,6 +5,7 @@
     --primary-color: #00BCD4;
     --font-family-serif: Merriweather, serif;
     --font-family-sans: 'Fira Sans', sans-serif;
+    --highlighted: background: yellow;
   }
   
   :root.theme-dark {
@@ -12,6 +13,7 @@
     --text-main: #fff;
     --text-secondary: #f1f0f0;
     --primary-color: #41c0dc;
+    --highlighted: background: blueviolet;
   }
   
   *,
@@ -58,7 +60,7 @@
   
   h4 {
     font-size: 1.4em;
-    background: yellow;
+    background-color: var(--highlighted);
   }
   
   h5 {

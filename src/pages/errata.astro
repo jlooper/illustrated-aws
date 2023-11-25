@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "The Illustrated AWS";
+const description = "Learn with us!";
+const permalink = Astro.site.href;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink}>
+  <h1>Errata</h1>
+  
+    <section class="home-copy">
+      <p>
+        In the beginning of the book, two of the 4 characters are mis-labelled. The beaver is Bev, and the porcupine is Spike.
+      </p>
+      <section class="home-container"> 
+        <p>This is Spike</p>
+      <img class="hero-image-container"
+       alt="Spike"
+        src="/assets/images/1.png"
+      />
+      
+      </section>
+      <hr/>
+      <section class="home-container">
+        <p>This is Bev</p>
+        <img class="hero-image-container"
+         alt="Bev"
+          src="/assets/images/2.png"
+        />
+      
+    </section>
+  </section>
+  
+</BaseLayout>
